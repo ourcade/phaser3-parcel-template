@@ -20,7 +20,7 @@
 		"minimist": ">=1.2.2"
 	},
 	"dependencies": {
-		"phaser": "^3.22.0"
+		"phaser": "^3.23.0"
 	},
 	"parcelCleanPaths": [
 		"dist"
