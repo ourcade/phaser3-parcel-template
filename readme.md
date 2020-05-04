@@ -128,6 +128,10 @@ Reinstall one or the other manually to make the versions match 😉
 
 ## TypeScript
 
+Check out the [phaser3-typescript-parcel-template](https://github.com/ourcade/phaser3-typescript-parcel-template) for a ready-to-use version of this template in TypeScript!
+
+---
+
 It just works. (Thanks to Parcel)
 
 You can rename all the `.js` files to `.ts` and start using TypeScript.
