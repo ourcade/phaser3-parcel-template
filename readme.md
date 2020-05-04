@@ -126,55 +126,17 @@ If you run into an error about mismatched major versions then go into `package.j
 
 Reinstall one or the other manually to make the versions match 😉
 
+# ESLint
+
+This template uses a basic `eslint` set up for code linting to help you find and fix common problems in your JavaScript code.
+
+It does not aim to be opinionated.
+
+[See here for rules to turn on or off](https://eslint.org/docs/rules/).
+
 ## TypeScript
 
 Check out the [phaser3-typescript-parcel-template](https://github.com/ourcade/phaser3-typescript-parcel-template) for a ready-to-use version of this template in TypeScript!
-
----
-
-It just works. (Thanks to Parcel)
-
-You can rename all the `.js` files to `.ts` and start using TypeScript.
-
-You may also want to add a `tsconfig.json` file to the project root like this:
-
-```
-{
-	"compilerOptions": {
-		"target": "es2016",
-		"module": "es6",
-		"strict": true,
-		"noImplicitAny": false,
-		"noEmit": true,
-		"allowJs": true,
-		"jsx": "preserve",
-		"importHelpers": true,
-		"moduleResolution": "node",
-		"experimentalDecorators": true,
-		"esModuleInterop": true,
-		"allowSyntheticDefaultImports": true,
-		"sourceMap": true,
-		"baseUrl": "./src",
-		"paths": {
-		  "~/*": ["./*"]
-		},
-		"typeRoots": [
-			"node_modules/@types",
-			"node_module/phaser/types"
-		],
-		"types": [
-			"phaser"
-		]
-	},
-	"include": [
-		"src/**/*"
-	]
-}
-```
-
-[More information on `tsconfig.json` options here.](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
-
-[Note on how Parcel handles `baseUrl` and `paths`.](https://gist.github.com/croaky/e3394e78d419475efc79c1e418c243ed)
 
 ## Flow
 
