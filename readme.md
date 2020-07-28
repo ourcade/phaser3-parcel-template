@@ -107,24 +107,9 @@ They can then be loaded by Phaser with `this.image.load('my-image', 'images/my-i
 
 ## Class Properties Support
 
-If you want to use the modern ES6 class properties feature then you'll need to add a `.babelrc` file at the project root with the `@babel/plugin-proposal-class-properties` plugin.
+This template includes class property support out of the box using `@babel/plugin-proposal-class-properties`.
 
-```
-{
-	"presets": [
-		"env"
-	],
-	"plugins": [
-		"@babel/plugin-proposal-class-properties"
-	]
-}
-```
-
-Parcel should automatically install the necessary dependencies.
-
-If you run into an error about mismatched major versions then go into `package.json` to see what the major versions for `@babel/core` and `@babel/plugin-proposal-class-properties` are.
-
-Reinstall one or the other manually to make the versions match 😉
+A `.babelrc` is included as well as the use of `babel-eslint` as the parser for ESLint.
 
 # ESLint
 
@@ -137,14 +122,6 @@ It does not aim to be opinionated.
 ## TypeScript
 
 Check out the [phaser3-typescript-parcel-template](https://github.com/ourcade/phaser3-typescript-parcel-template) for a ready-to-use version of this template in TypeScript!
-
-## Flow
-
-It just works. (Thanks to Parcel)
-
-Just put `// @flow` at the top of your `.js` files. Parcel will handle the rest.
-
-[Go here for more information on how to use Flow](https://flow.org/).
 
 ## Dev Server Port
 
