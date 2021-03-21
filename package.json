@@ -15,17 +15,45 @@
 	},
 	"homepage": "https://github.com/ourcade/phaser3-parcel-template",
 	"devDependencies": {
-		"@babel/core": "^7.10.5",
+		"@babel/core": "^7.0.0-0",
 		"@babel/plugin-proposal-class-properties": "^7.10.4",
+		"@babel/plugin-transform-modules-commonjs": "^7.4.4",
+		"@babel/preset-env": "^7.13.10",
+		"@babel/preset-react": "^7.12.13",
 		"babel-eslint": "^10.1.0",
+		"babel-jest": "^26.3.0",
+		"babel-loader": "^8.0.5",
+		"canvas": "^2.5.0",
+		"clean-webpack-plugin": "^3.0.0",
 		"eslint": "^6.8.0",
+		"file-loader": "^6.0.0",
+		"html-webpack-plugin": "^4.3.0",
 		"minimist": ">=1.2.2",
 		"parcel-plugin-clean-easy": "^1.0.2",
 		"parcel-plugin-static-files-copy": "^2.4.3",
-		"typescript": "^4.2.3"
+		"path": "^0.12.7",
+		"raw-loader": "^4.0.1",
+		"react": "^15.0.0 || ^16.0.0 || ^17.0.0 ",
+		"react-dom": "^15.0.0 || ^16.0.0 || ^17.0.0 ",
+		"sass": "^1.32.8",
+		"terser-webpack-plugin": "^4.2.2",
+		"typescript": "^4.2.3",
+		"webpack": "^5.11.1",
+		"webpack-cli": "^4.3.1",
+		"webpack-dev-server": "^3.1.14",
+		"webpack-merge": "^5.1.4"
 	},
 	"dependencies": {
-		"phaser": "^3.50.1"
+		"@types/react": "^15.0.0 || ^16.0.0 || ^17.0.0 ",
+		"babel-core": "^6.26.3",
+		"babel-preset-es2015": "^6.24.1",
+		"babel-preset-react": "^6.24.1",
+		"css-loader": "^5.0.0",
+		"phaser": "^3.50.1",
+		"react-hot-loader": "^4.13.0",
+		"react-redux": "^7.0.2",
+		"react-router-dom": "^5.2.0",
+		"style-loader": "^2.0.0"
 	},
 	"parcelCleanPaths": [
 		"dist"

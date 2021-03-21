@@ -1,0 +1,91 @@
+Arguments: 
+  /Users/Dru/.nvm/versions/node/v15.12.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js install
+
+PATH: 
+  /Users/Dru/.gem/ruby/2.6.5/bin:/Users/Dru/.rubies/ruby-2.6.5/lib/ruby/gems/2.6.0/bin:/Users/Dru/.rubies/ruby-2.6.5/bin:/Users/Dru/.nvm/versions/node/v15.12.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/Dru/challenges/jsPuzzler/phaser3-parcel-template/package.json: Unexpected string in JSON at position 1402
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+  	"name": "phaser3-parcel-template",
+  	"version": "1.0.0",
+  	"description": "A template project for Phaser 3 using Parceljs",
+  	"scripts": {
+  		"start": "parcel src/index.html -p 8000",
+  		"build": "parcel build src/index.html --out-dir dist",
+  		"test": "echo \"Error: no test specified\" && exit 1"
+  	},
+  	"author": "supertommy",
+  	"license": "MIT",
+  	"repository": {
+  		"type": "git",
+  		"url": "https://github.com/ourcade/phaser3-parcel-template.git"
+  	},
+  	"homepage": "https://github.com/ourcade/phaser3-parcel-template",
+  	"devDependencies": {
+  		"@babel/core": "^7.10.5",
+  		"@babel/plugin-proposal-class-properties": "^7.10.4",
+  		"babel-eslint": "^10.1.0",
+  		"eslint": "^6.8.0",
+  		"minimist": ">=1.2.2",
+  		"parcel-plugin-clean-easy": "^1.0.2",
+  		"parcel-plugin-static-files-copy": "^2.4.3",
+  		"typescript": "^4.2.3",
+  		"@babel/plugin-transform-modules-commonjs": "^7.4.4",
+  		"@babel/preset-env": "^7.4.3",
+  		"@babel/preset-react": "^7.0.0",
+  		"babel-jest": "^26.3.0",
+  		"babel-loader": "^8.0.5",
+  		"canvas": "^2.5.0",
+  		"clean-webpack-plugin": "^3.0.0",
+  		"file-loader": "^6.0.0",
+  		"html-webpack-plugin": "^4.3.0",
+  		"path": "^0.12.7",
+  		"raw-loader": "^4.0.1",
+  		"react": "^16.8.6",
+  		"react-dom": "^16.8.6",
+  		"terser-webpack-plugin": "^4.2.2",
+  		"webpack": "^5.11.1",
+  		"webpack-cli": "^4.3.1",
+  		"webpack-dev-server": "^3.1.14",
+  		"webpack-merge": "^5.1.4"
+  	},
+  	"dependencies": {
+  		"phaser": "^3.50.1"
+  		"babel-core": "^6.26.3",
+  		"babel-preset-es2015": "^6.24.1",
+  		"babel-preset-react": "^6.24.1",
+  		"css-loader": "^5.0.0",
+  		"react-redux": "^7.0.2",
+  		"style-loader": "^2.0.0"
+  	},
+  	"parcelCleanPaths": [
+  		"dist"
+  	],
+  	"staticFiles": {
+  		"staticPath": "public",
+  		"watcherGlob": "**"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
