@@ -26,7 +26,7 @@ Replace 'node' with 'latest' for `nvm-windows`.
 Then install Parcel:
 
 ```bash
-npm install -g parcel-bundler
+npm install -g parcel
 ```
 
 ## Getting Started
