@@ -1,18 +1,20 @@
 import Phaser from 'phaser'
+import PlayerCharacter from './characters/PlayerCharacter'
 
-import HelloWorldScene from './scenes/HelloWorldScene'
+import GameScene from './scenes/GameScene'
 
 const config = {
 	type: Phaser.AUTO,
-	width: 800,
-	height: 600,
+	width: window.innerWidth * 0.99,
+	height: window.innerHeight * 0.98,
+	pixelArt: true,
 	physics: {
 		default: 'arcade',
 		arcade: {
-			gravity: { y: 200 }
+			gravity: { y: 0 }
 		}
 	},
-	scene: [HelloWorldScene]
+	scene: [GameScene]
 }
 
 export default new Phaser.Game(config)
