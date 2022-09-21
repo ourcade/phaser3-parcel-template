@@ -169,7 +169,8 @@ export default class GameScene extends Phaser.Scene {
 
     this.gameOverArea.visible = true;
     this.gameRestart.visible = true;
-    this.input.on("pointerdown", () => this.scene.start("game-scene"));
+    this.input.on("pointerdown", () => this.scene.start("game-scene") );
+    this.input.on("pointerdown", () => this.gameO.stop() );
   }
   createPlatform() {
     const platforms = this.physics.add.staticGroup();
